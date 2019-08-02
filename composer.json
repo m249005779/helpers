@@ -1,0 +1,25 @@
+{
+    "name": "m249005779/helpers",
+    "description": "Helper package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MengLingyue",
+            "email": "249005779@qq.com"
+        }
+    ],
+    "require": {
+	    "php": ">=7.0"
+	},
+    "minimum-stability": "dev",
+    "autoload": {
+	    "psr-4": {
+	      "helpers\\ArrayHelper\\": "src/ArrayHelper",
+	      "helpers\\CompareHelper\\": "src/CompareHelper",
+	      "helpers\\CurlHelper\\": "src/CurlHelper",
+	      "helpers\\PassHelper\\": "src/PassHelper",
+	      "helpers\\StrHelper\\": "src/StrHelper",
+	      "helpers\\TimeHelper\\": "src/TimeHelper"
+	    }
+  }
+}
