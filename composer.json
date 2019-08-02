@@ -15,12 +15,7 @@
     "minimum-stability": "dev",
     "autoload": {
 	    "psr-4": {
-	      "helpers\\ArrayHelper\\": "src/ArrayHelper",
-	      "helpers\\CompareHelper\\": "src/CompareHelper",
-	      "helpers\\CurlHelper\\": "src/CurlHelper",
-	      "helpers\\PassHelper\\": "src/PassHelper",
-	      "helpers\\StrHelper\\": "src/StrHelper",
-	      "helpers\\TimeHelper\\": "src/TimeHelper"
+	      "helpers\\": "src"
 	    }
   }
 }
